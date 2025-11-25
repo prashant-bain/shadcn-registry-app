@@ -1,82 +1,83 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "Registry Starter",
+ 
   "homepage": "https://registry-starter.vercel.app",
-  "items": [
+   "items": [
     {
       "name": "theme",
       "type": "registry:theme",
-      "title": "Nature Theme",
-      "description": "A nature theme and styles with greens and browns using Tailwind and shadcn/ui variable names",
+      "title": "Bain Design System",
+      "description": "Bain & Company design system theme with red primary and comprehensive color palette",
       "cssVars": {
         "light": {
-          "background": "oklch(0.97 0.01 80.72)",
-          "foreground": "oklch(0.3 0.04 30.2)",
-          "card": "oklch(0.97 0.01 80.72)",
-          "card-foreground": "oklch(0.3 0.04 30.2)",
-          "popover": "oklch(0.97 0.01 80.72)",
-          "popover-foreground": "oklch(0.3 0.04 30.2)",
-          "primary": "oklch(0.52 0.13 144.17)",
-          "primary-foreground": "oklch(1.0 0 0)",
-          "secondary": "oklch(0.96 0.02 147.64)",
-          "secondary-foreground": "oklch(0.43 0.12 144.31)",
-          "muted": "oklch(0.94 0.01 74.42)",
-          "muted-foreground": "oklch(0.45 0.05 39.21)",
-          "accent": "oklch(0.9 0.05 146.04)",
-          "accent-foreground": "oklch(0.43 0.12 144.31)",
-          "destructive": "oklch(0.54 0.19 26.72)",
-          "destructive-foreground": "oklch(1.0 0 0)",
-          "border": "oklch(0.88 0.02 74.64)",
-          "input": "oklch(0.88 0.02 74.64)",
-          "ring": "oklch(0.52 0.13 144.17)",
-          "chart-1": "oklch(0.67 0.16 144.21)",
-          "chart-2": "oklch(0.58 0.14 144.18)",
-          "chart-3": "oklch(0.52 0.13 144.17)",
-          "chart-4": "oklch(0.43 0.12 144.31)",
-          "chart-5": "oklch(0.22 0.05 145.73)",
-          "sidebar": "oklch(0.94 0.01 74.42)",
-          "sidebar-foreground": "oklch(0.3 0.04 30.2)",
-          "sidebar-primary": "oklch(0.52 0.13 144.17)",
-          "sidebar-primary-foreground": "oklch(1.0 0 0)",
-          "sidebar-accent": "oklch(0.9 0.05 146.04)",
-          "sidebar-accent-foreground": "oklch(0.43 0.12 144.31)",
-          "sidebar-border": "oklch(0.88 0.02 74.64)",
-          "sidebar-ring": "oklch(0.52 0.13 144.17)",
+          "background": "oklch(1.000000 0.000000 89.875563)",
+          "foreground": "oklch(0.218908 0.001558 17.275940)",
+          "card": "oklch(1.000000 0.000000 89.875563)",
+          "card-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "popover": "oklch(1.000000 0.000000 89.875563)",
+          "popover-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "primary": "oklch(0.540511 0.221736 29.147048)",
+          "primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "secondary": "oklch(0.906134 0.002692 106.453004)",
+          "secondary-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "muted": "oklch(0.906134 0.002692 106.453004)",
+          "muted-foreground": "oklch(0.460396 0.000000 89.875563)",
+          "accent": "oklch(0.965750 0.018006 303.418801)",
+          "accent-foreground": "oklch(0.338016 0.142295 284.576942)",
+          "destructive": "oklch(0.611123 0.242806 29.156415)",
+          "destructive-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "border": "oklch(0.791489 0.002784 106.462874)",
+          "input": "oklch(0.791489 0.002784 106.462874)",
+          "ring": "oklch(0.500466 0.235035 286.004733)",
+          "chart-1": "oklch(0.500466 0.235035 286.004733)",
+          "chart-2": "oklch(0.800540 0.127238 194.911599)",
+          "chart-3": "oklch(0.640259 0.090625 136.016840)",
+          "chart-4": "oklch(0.590361 0.187813 36.114698)",
+          "chart-5": "oklch(0.514023 0.092999 3.948581)",
+          "sidebar": "oklch(0.978573 0.002641 106.448084)",
+          "sidebar-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "sidebar-primary": "oklch(0.424088 0.179625 284.161225)",
+          "sidebar-primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-accent": "oklch(0.906134 0.002692 106.453004)",
+          "sidebar-accent-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "sidebar-border": "oklch(0.791489 0.002784 106.462874)",
+          "sidebar-ring": "oklch(0.500466 0.235035 286.004733)",
           "radius": "0.5rem"
         },
         "dark": {
-          "background": "oklch(0.15 0.01 74.42)",
-          "foreground": "oklch(0.95 0.02 80.72)",
-          "card": "oklch(0.12 0.01 80.72)",
-          "card-foreground": "oklch(0.95 0.02 80.72)",
-          "popover": "oklch(0.12 0.01 80.72)",
-          "popover-foreground": "oklch(0.95 0.02 80.72)",
-          "primary": "oklch(0.58 0.15 144.17)",
-          "primary-foreground": "oklch(0.09 0.01 80.72)",
-          "secondary": "oklch(0.15 0.02 147.64)",
-          "secondary-foreground": "oklch(0.65 0.12 144.31)",
-          "muted": "oklch(0.18 0.01 74.42)",
-          "muted-foreground": "oklch(0.65 0.03 74.42)",
-          "accent": "oklch(0.22 0.04 146.04)",
-          "accent-foreground": "oklch(0.65 0.12 144.31)",
-          "destructive": "oklch(0.62 0.22 26.72)",
-          "destructive-foreground": "oklch(0.95 0.02 80.72)",
-          "border": "oklch(0.22 0.02 74.64)",
-          "input": "oklch(0.22 0.02 74.64)",
-          "ring": "oklch(0.58 0.15 144.17)",
-          "chart-1": "oklch(0.72 0.16 144.21)",
-          "chart-2": "oklch(0.63 0.14 144.18)",
-          "chart-3": "oklch(0.58 0.15 144.17)",
-          "chart-4": "oklch(0.48 0.12 144.31)",
-          "chart-5": "oklch(0.35 0.08 145.73)",
-          "sidebar": "oklch(0.15 0.01 74.42)",
-          "sidebar-foreground": "oklch(0.95 0.02 80.72)",
-          "sidebar-primary": "oklch(0.58 0.15 144.17)",
-          "sidebar-primary-foreground": "oklch(0.09 0.01 80.72)",
-          "sidebar-accent": "oklch(0.22 0.04 146.04)",
-          "sidebar-accent-foreground": "oklch(0.65 0.12 144.31)",
-          "sidebar-border": "oklch(0.22 0.02 74.64)",
-          "sidebar-ring": "oklch(0.58 0.15 144.17)",
+          "background": "oklch(0.218908 0.001558 17.275940)",
+          "foreground": "oklch(1.000000 0.000000 89.875563)",
+          "card": "oklch(0.251965 0.000000 89.875563)",
+          "card-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "popover": "oklch(0.251965 0.000000 89.875563)",
+          "popover-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "primary": "oklch(0.676551 0.198272 32.313317)",
+          "primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "secondary": "oklch(0.310209 0.001425 17.234336)",
+          "secondary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "muted": "oklch(0.310209 0.001425 17.234336)",
+          "muted-foreground": "oklch(0.711937 0.001430 106.435572)",
+          "accent": "oklch(0.338016 0.142295 284.576942)",
+          "accent-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "destructive": "oklch(0.676551 0.198272 32.313317)",
+          "destructive-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "border": "oklch(0.407316 0.002667 17.266513)",
+          "input": "oklch(0.407316 0.002667 17.266513)",
+          "ring": "oklch(0.500466 0.235035 286.004733)",
+          "chart-1": "oklch(0.604798 0.185847 289.751825)",
+          "chart-2": "oklch(0.832185 0.113512 195.192904)",
+          "chart-3": "oklch(0.738828 0.098826 136.082807)",
+          "chart-4": "oklch(0.686713 0.192178 40.362481)",
+          "chart-5": "oklch(0.604055 0.072949 4.300560)",
+          "sidebar": "oklch(0.251965 0.000000 89.875563)",
+          "sidebar-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-primary": "oklch(0.604798 0.185847 289.751825)",
+          "sidebar-primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-accent": "oklch(0.310209 0.001425 17.234336)",
+          "sidebar-accent-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-border": "oklch(0.407316 0.002667 17.266513)",
+          "sidebar-ring": "oklch(0.500466 0.235035 286.004733)",
           "radius": "0.5rem"
         }
       },
@@ -100,10 +101,10 @@
       "title": "Blank",
       "description": "A blank application with all brand components and code",
       "registryDependencies": [
-        "https://registry-starter.vercel.app/r/brand-header.json",
-        "https://registry-starter.vercel.app/r/brand-sidebar.json",
-        "https://registry-starter.vercel.app/r/product-grid.json",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-header.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-sidebar.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/product-grid.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -124,10 +125,10 @@
       "title": "Dashboard",
       "description": "A dashboard application with your brand themed components",
       "registryDependencies": [
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/brand-header.json",
-        "https://registry-starter.vercel.app/r/brand-sidebar.json",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/sonner.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-header.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-sidebar.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -148,8 +149,8 @@
       "title": "Store",
       "description": "A store application with your brand themed components",
       "registryDependencies": [
-        "https://registry-starter.vercel.app/r/product-grid.json",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/product-grid.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -174,9 +175,9 @@
         "input",
         "avatar",
         "sidebar",
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/logo.json",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/sonner.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/logo.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -204,8 +205,8 @@
         "badge",
         "button",
         "sidebar",
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/sonner.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -232,8 +233,8 @@
       "registryDependencies": [
         "badge",
         "button",
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/logo.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/logo.json"
       ],
       "files": [
         {
@@ -285,7 +286,7 @@
       "registryDependencies": [
         "badge",
         "button",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -361,7 +362,7 @@
       "description": "A vertically stacked set of interactive headings that each reveal a section of content.",
       "registryDependencies": [
         "accordion",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -378,7 +379,7 @@
       "description": "Displays a callout for user attention.",
       "registryDependencies": [
         "alert",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -395,7 +396,7 @@
       "description": "An image element with a fallback for representing the user.",
       "registryDependencies": [
         "avatar",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -412,7 +413,7 @@
       "description": "Displays a small count or status indicator.",
       "registryDependencies": [
         "badge",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -429,7 +430,7 @@
       "description": "Displays the path to the current resource using a hierarchy of links.",
       "registryDependencies": [
         "breadcrumb",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -446,7 +447,7 @@
       "description": "Allows users to take actions with a single click or tap.",
       "registryDependencies": [
         "button",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -463,7 +464,7 @@
       "description": "A date field component that allows users to enter and edit date.",
       "registryDependencies": [
         "calendar",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -480,7 +481,7 @@
       "description": "Containers for displaying content and actions about a single subject.",
       "registryDependencies": [
         "card",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -497,7 +498,7 @@
       "description": "Beautiful charts. Built using Recharts. Copy and paste into your apps.",
       "registryDependencies": [
         "chart",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -514,7 +515,7 @@
       "description": "Allows users to select multiple items from a list of options.",
       "registryDependencies": [
         "checkbox",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -531,7 +532,7 @@
       "description": "Powerful table and datagrids built using TanStack Table.",
       "registryDependencies": [
         "data-table",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -548,7 +549,7 @@
       "description": "Displays the path to the current resource using a hierarchy of links.",
       "registryDependencies": [
         "date-picker",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -565,7 +566,7 @@
       "description": "A modal dialog that interrupts the user with important content.",
       "registryDependencies": [
         "dialog",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -582,7 +583,7 @@
       "description": "Displays a menu to the user triggered by a button.",
       "registryDependencies": [
         "dropdown-menu",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -599,7 +600,7 @@
       "description": "Displays a form input field or a component that looks like an input field.",
       "registryDependencies": [
         "input",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -616,7 +617,7 @@
       "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
       "registryDependencies": [
         "menu-bar",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -633,7 +634,7 @@
       "description": "Displays a list of options for the user to pick from—triggered by a button.",
       "registryDependencies": [
         "select",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -650,7 +651,7 @@
       "description": "Visually or semantically separates content.",
       "registryDependencies": [
         "separator",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -667,7 +668,7 @@
       "description": "Use to show a placeholder while content is loading.",
       "registryDependencies": [
         "skeleton",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -684,7 +685,7 @@
       "description": "An input where the user selects a value from within a given range.",
       "registryDependencies": [
         "slider",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -701,7 +702,7 @@
       "description": "An opinionated toast component for React.",
       "registryDependencies": [
         "sonner",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -723,7 +724,7 @@
       "description": "A control that allows the user to toggle between checked and not checked.",
       "registryDependencies": [
         "switch",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -740,7 +741,7 @@
       "description": "A responsive table component.",
       "registryDependencies": [
         "table",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -757,7 +758,7 @@
       "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
       "registryDependencies": [
         "tabs",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -774,7 +775,7 @@
       "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
       "registryDependencies": [
         "toggle-group",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -791,7 +792,7 @@
       "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
       "registryDependencies": [
         "tooltip",
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
       ],
       "files": [
         {
