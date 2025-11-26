@@ -1,0 +1,806 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "Registry Starter",
+ 
+  "homepage": "https://registry-starter.vercel.app",
+   "items": [
+    {
+      "name": "theme",
+      "type": "registry:theme",
+      "title": "Bain Design System",
+      "description": "Bain & Company design system theme with red primary and comprehensive color palette",
+      "cssVars": {
+        "light": {
+          "background": "oklch(1.000000 0.000000 89.875563)",
+          "foreground": "oklch(0.218908 0.001558 17.275940)",
+          "card": "oklch(1.000000 0.000000 89.875563)",
+          "card-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "popover": "oklch(1.000000 0.000000 89.875563)",
+          "popover-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "primary": "oklch(0.540511 0.221736 29.147048)",
+          "primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "secondary": "oklch(0.906134 0.002692 106.453004)",
+          "secondary-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "muted": "oklch(0.906134 0.002692 106.453004)",
+          "muted-foreground": "oklch(0.460396 0.000000 89.875563)",
+          "accent": "oklch(0.965750 0.018006 303.418801)",
+          "accent-foreground": "oklch(0.338016 0.142295 284.576942)",
+          "destructive": "oklch(0.611123 0.242806 29.156415)",
+          "destructive-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "border": "oklch(0.791489 0.002784 106.462874)",
+          "input": "oklch(0.791489 0.002784 106.462874)",
+          "ring": "oklch(0.500466 0.235035 286.004733)",
+          "chart-1": "oklch(0.500466 0.235035 286.004733)",
+          "chart-2": "oklch(0.800540 0.127238 194.911599)",
+          "chart-3": "oklch(0.640259 0.090625 136.016840)",
+          "chart-4": "oklch(0.590361 0.187813 36.114698)",
+          "chart-5": "oklch(0.514023 0.092999 3.948581)",
+          "sidebar": "oklch(0.978573 0.002641 106.448084)",
+          "sidebar-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "sidebar-primary": "oklch(0.424088 0.179625 284.161225)",
+          "sidebar-primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-accent": "oklch(0.906134 0.002692 106.453004)",
+          "sidebar-accent-foreground": "oklch(0.218908 0.001558 17.275940)",
+          "sidebar-border": "oklch(0.791489 0.002784 106.462874)",
+          "sidebar-ring": "oklch(0.500466 0.235035 286.004733)",
+          "radius": "0.5rem"
+        },
+        "dark": {
+          "background": "oklch(0.218908 0.001558 17.275940)",
+          "foreground": "oklch(1.000000 0.000000 89.875563)",
+          "card": "oklch(0.251965 0.000000 89.875563)",
+          "card-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "popover": "oklch(0.251965 0.000000 89.875563)",
+          "popover-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "primary": "oklch(0.676551 0.198272 32.313317)",
+          "primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "secondary": "oklch(0.310209 0.001425 17.234336)",
+          "secondary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "muted": "oklch(0.310209 0.001425 17.234336)",
+          "muted-foreground": "oklch(0.711937 0.001430 106.435572)",
+          "accent": "oklch(0.338016 0.142295 284.576942)",
+          "accent-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "destructive": "oklch(0.676551 0.198272 32.313317)",
+          "destructive-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "border": "oklch(0.407316 0.002667 17.266513)",
+          "input": "oklch(0.407316 0.002667 17.266513)",
+          "ring": "oklch(0.500466 0.235035 286.004733)",
+          "chart-1": "oklch(0.604798 0.185847 289.751825)",
+          "chart-2": "oklch(0.832185 0.113512 195.192904)",
+          "chart-3": "oklch(0.738828 0.098826 136.082807)",
+          "chart-4": "oklch(0.686713 0.192178 40.362481)",
+          "chart-5": "oklch(0.604055 0.072949 4.300560)",
+          "sidebar": "oklch(0.251965 0.000000 89.875563)",
+          "sidebar-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-primary": "oklch(0.604798 0.185847 289.751825)",
+          "sidebar-primary-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-accent": "oklch(0.310209 0.001425 17.234336)",
+          "sidebar-accent-foreground": "oklch(1.000000 0.000000 89.875563)",
+          "sidebar-border": "oklch(0.407316 0.002667 17.266513)",
+          "sidebar-ring": "oklch(0.500466 0.235035 286.004733)",
+          "radius": "0.5rem"
+        }
+      },
+      "dependencies": ["radix-ui"],
+      "files": [
+        {
+          "path": "src/app/globals.css",
+          "type": "registry:style",
+          "target": "app/globals.css"
+        },
+        {
+          "path": "postcss.config.mjs",
+          "type": "registry:file",
+          "target": "postcss.config.mjs"
+        }
+      ]
+    },
+    {
+      "name": "blank",
+      "type": "registry:block",
+      "title": "Blank",
+      "description": "A blank application with all brand components and code",
+      "registryDependencies": [
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-header.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-sidebar.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/product-grid.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard",
+      "type": "registry:block",
+      "title": "Dashboard",
+      "description": "A dashboard application with your brand themed components",
+      "registryDependencies": [
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/sonner.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-header.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/brand-sidebar.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/shell-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/dashboard-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "store",
+      "type": "registry:block",
+      "title": "Store",
+      "description": "A store application with your brand themed components",
+      "registryDependencies": [
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/product-grid.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/store-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "brand-header",
+      "type": "registry:component",
+      "title": "Brand Header",
+      "description": "A styled, simple, reusable header",
+      "registryDependencies": [
+        "button",
+        "input",
+        "avatar",
+        "sidebar",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/sonner.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/logo.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/brand-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/layouts/shell-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "brand-sidebar",
+      "type": "registry:component",
+      "title": "Brand Sidebar",
+      "description": "A styled, simple, reusable sidebar",
+      "registryDependencies": [
+        "badge",
+        "button",
+        "sidebar",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/sonner.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/brand-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/layouts/shell-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "login",
+      "type": "registry:component",
+      "title": "Login",
+      "description": "Username & password login section with customer quote.",
+      "registryDependencies": [
+        "badge",
+        "button",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/logo.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/login.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "type": "registry:component",
+      "title": "Brand Logo",
+      "description": "A styled, simple, reusable logo",
+      "registryDependencies": [
+        "https://registry-starter.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/logo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "type": "registry:component",
+      "title": "Hero",
+      "description": "Attention-grabbing section for the top of your landing pages.",
+      "registryDependencies": [
+        "badge",
+        "button",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/hero.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "promo",
+      "type": "registry:component",
+      "title": "Promo",
+      "description": "Attention-grabbing section to display the current promotional deal.",
+      "registryDependencies": [
+        "button",
+        "https://registry-starter.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/promo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "product-grid",
+      "type": "registry:component",
+      "title": "Product Grid",
+      "description": "Product grid displaying all products with API to fetch data",
+      "registryDependencies": [
+        "https://registry-starter.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/product-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/lib/products.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "A vertically stacked set of interactive headings that each reveal a section of content.",
+      "registryDependencies": [
+        "accordion",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "Displays a callout for user attention.",
+      "registryDependencies": [
+        "alert",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "An image element with a fallback for representing the user.",
+      "registryDependencies": [
+        "avatar",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Displays a small count or status indicator.",
+      "registryDependencies": [
+        "badge",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Displays the path to the current resource using a hierarchy of links.",
+      "registryDependencies": [
+        "breadcrumb",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Allows users to take actions with a single click or tap.",
+      "registryDependencies": [
+        "button",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "A date field component that allows users to enter and edit date.",
+      "registryDependencies": [
+        "calendar",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Containers for displaying content and actions about a single subject.",
+      "registryDependencies": [
+        "card",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "title": "Chart",
+      "description": "Beautiful charts. Built using Recharts. Copy and paste into your apps.",
+      "registryDependencies": [
+        "chart",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "Allows users to select multiple items from a list of options.",
+      "registryDependencies": [
+        "checkbox",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "Powerful table and datagrids built using TanStack Table.",
+      "registryDependencies": [
+        "data-table",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date Picker",
+      "description": "Displays the path to the current resource using a hierarchy of links.",
+      "registryDependencies": [
+        "date-picker",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "A modal dialog that interrupts the user with important content.",
+      "registryDependencies": [
+        "dialog",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown",
+      "description": "Displays a menu to the user triggered by a button.",
+      "registryDependencies": [
+        "dropdown-menu",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Displays a form input field or a component that looks like an input field.",
+      "registryDependencies": [
+        "input",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "menu-bar",
+      "type": "registry:ui",
+      "title": "Menu Bar",
+      "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
+      "registryDependencies": [
+        "menu-bar",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Displays a list of options for the user to pick from—triggered by a button.",
+      "registryDependencies": [
+        "select",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Visually or semantically separates content.",
+      "registryDependencies": [
+        "separator",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Use to show a placeholder while content is loading.",
+      "registryDependencies": [
+        "skeleton",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "An input where the user selects a value from within a given range.",
+      "registryDependencies": [
+        "slider",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sonner",
+      "type": "registry:ui",
+      "title": "Sonner",
+      "description": "An opinionated toast component for React.",
+      "registryDependencies": [
+        "sonner",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/components/ui/sonner.tsx",
+          "type": "registry:file",
+          "target": "components/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "registryDependencies": [
+        "switch",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "A responsive table component.",
+      "registryDependencies": [
+        "table",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "registryDependencies": [
+        "tabs",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "title": "Toggle Group",
+      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "registryDependencies": [
+        "toggle-group",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "registryDependencies": [
+        "tooltip",
+        "https://bain-shadcn-registry-rinzj4k79-v-prashantpanchal-1259s-projects.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/layouts/minimal-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        }
+      ]
+    }
+  ]
+}
